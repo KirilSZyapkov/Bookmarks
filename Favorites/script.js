@@ -20,7 +20,7 @@ function newSite() {
         dellBtn.innerHTML = ' <a onclick = "deleteSite(\'' + url + '\')" class = btn btn-danger>Delete</a>'
 
         let visitBtn = document.createElement('button');
-        visitBtn.innerHTML = ' <a target="_blank" href = "' + url + '">Visit</a>'
+        visitBtn.innerHTML = ' <a target="_blank" onclick = "' + url + '">Visit</a>'
 
         let span = document.createElement('span');
         span.append(visitBtn);
@@ -43,6 +43,7 @@ function newSite() {
         document.getElementById('url').value = "";
 
     }
+    // loadSites()
 }
 
 function deleteSite(url) {
