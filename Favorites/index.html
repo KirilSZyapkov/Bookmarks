@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites Sites</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="loadSites()">
+    <div id="container">
+        
+        <div id="enter-data">
+            <h1>Favorites</h1>
+            <div>
+                <input type="text" id="site-name" placeholder="Add name">
+            </div>
+            <div>
+                <input type="text" id="url" placeholder="Add URL">
+            </div>
+
+            <button type="button" onclick="newSite()">Submit</button>
+        </div>
+
+        <div id="mySites">
+            <ul id="sites">
+                <li>Facebook <button type="button">Visit</button><button type="button">Delete</button></li>
+                
+            </ul>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

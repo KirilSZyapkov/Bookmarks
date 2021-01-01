@@ -1,0 +1,53 @@
+#container{
+    width: 800px;
+    /* border: solid red; */
+    height: auto;
+    margin: auto;
+}
+
+#enter-data{
+    /* border:  solid green; */
+    margin: auto;
+    width: 800px;
+    align-items: center;
+    background-color: turquoise;
+}
+
+#enter-data button{
+    margin-left: 370px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 5px 5px 5px 5px;
+    margin-left: 310px;
+    margin-top: 10px;
+}
+
+h1{
+    margin-left: 333px;
+}
+
+#mySites{
+    /* border: solid black; */
+}
+
+li{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-style: solid;
+    background-color: lightgrey;
+    margin-top: 10px;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+li button{
+    margin-left: 10px;
+    
+}
+button a {
+    text-decoration: none;
+    color: black;
+}
